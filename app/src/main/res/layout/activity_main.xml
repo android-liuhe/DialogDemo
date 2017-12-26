@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.liuhe.dialogdemo.MainActivity">
+
+    <Button
+        android:id="@+id/startone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动简单的Dialog"/>
+
+    <Button
+        android:id="@+id/starttwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动列表的Dialog"/>
+
+    <Button
+        android:id="@+id/startthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动单选列表框的Dialog"/>
+
+    <Button
+        android:id="@+id/startfour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动多选列表框的Dialog"/>
+
+</LinearLayout>
